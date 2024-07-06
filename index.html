@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .zz{
+            display:flex;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        div{
+            /* width: 300px;
+            height: 300px; */
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 100%;
+            text-align: center;
+        }
+        
+        img{
+            width: 100%;
+        }
+        @media screen and (min-width:600px) {
+       div{
+        background-color: white;
+        flex: 1 1 80%;
+       }     
+        }
+       @media screen and (width>600px) and (width<3024px){
+        .aa,.bb,.cc,.dd{
+            background-color:white;
+            flex:1 1 0%;
+            text-align: center;
+        }}
+          h1{
+            font-weight: 100;
+          }
+          p{
+            font-size: 14px;
+            text-align-last: center;
+          }
+          div h1,p{
+            padding: 10px;
+          }
+       
+    </style>
+</head>
+<body>
+<section class="zz">
+    <div class="aa">
+        <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+        <h1>ghj</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta autem illo ad nesciunt odit neque praesentium, cupiditate sit voluptates? Odio consequuntur placeat quisquam reprehenderit, ea recusandae sapiente dolorem repudiandae!</p>
+    </div>
+    <div class="bb">
+        <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+        <h1>htt</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nobis quae error ullam corporis, tenetur sint magnam dolor, nesciunt nisi quibusdam possimus. Autem esse, nesciunt iusto quas dolorem odio alias.</p>
+    </div>
+    <div class="cc">
+        <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+        <h1>hhh</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam assumenda asperiores architecto praesentium illum commodi rerum in officiis voluptate, accusamus quas laudantium aut? Inventore eaque culpa iste delectus, recusandae expedita.</p>
+    </div>
+    <div class="cc">
+        <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+        <h1>hhh</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam assumenda asperiores architecto praesentium illum commodi rerum in officiis voluptate, accusamus quas laudantium aut? Inventore eaque culpa iste delectus, recusandae expedita.</p>
+    </div>
+</section>
+</body>
+</html>
